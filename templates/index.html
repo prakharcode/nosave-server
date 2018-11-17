@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title> Server</title>
+</head>
+<body>
+  {% block form %}
+  <form method="post" enctype="multipart/form-data">
+    <input type="file" name = 'file_input'>
+    <button type="submit" name="button">Submit</button>
+  </form>
+  {% endblock %}
+</body>
+</html>
